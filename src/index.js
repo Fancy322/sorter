@@ -40,12 +40,11 @@ class Sorter {
       sortedIndices.forEach((value, index) => this.array[value] = subArray[index] );
   }
 
-    // your implementation
-  }
 
-  setComparator(compareFunction) 
+  setComparator(compareFunction) {
     this.customComparator = compareFunction;
     // your implementation
-  
+  }
+}
 
 
